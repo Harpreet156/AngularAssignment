@@ -1,0 +1,28 @@
+/* home.component.css */
+h1 {
+    font-size: 3rem;
+    color: #2980b9;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+.footer {
+    background-color: #34495e; 
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>API Data</h2>
+    <div *ngIf="isLoading" class="spinner-container">
+      <div class="spinner"></div>
+    </div>
+    <div *ngIf="!isLoading && data.length > 0">
+      <div *ngFor="let item of data" class="card">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
+    </div>
+    <div *ngIf="!isLoading && data.length === 0">
+      <p>No data found</p>
+    </div>
+  </div>
+  

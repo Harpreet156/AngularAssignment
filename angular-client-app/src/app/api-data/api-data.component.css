@@ -1,0 +1,33 @@
+/* Card layout for the posts */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px 0;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .card h3 {
+    color: #3498db;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+  }
+  
+  .spinner-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .spinner {
+    margin-top: 50px;
+  }
+  
