@@ -5,12 +5,8 @@
       "src": "package.json",
       "use": "@vercel/node",
       "config": {
-        "buildCommand": "npm install && ng build --prod"
+        "buildCommand": "npm install && npm run build --prod"
       }
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
-
